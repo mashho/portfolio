@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  background-color: black;
+  height: 40px;
+  color: white;
+}
+.list {
+  display: flex;
+}
+li {
+  text-decoration: none;
+  margin-right: 30px;
+}
