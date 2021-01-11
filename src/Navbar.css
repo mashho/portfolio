@@ -1,15 +1,24 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  top: 0;
-  background-color: black;
-  height: 40px;
-  color: white;
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+
+.logo {
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: 2rem;
+  height: 3rem !important;
+  justify-items: center;
 }
-.list {
-  display: flex;
+.link {
+  font-weight: 500;
+  letter-spacing: 0.037rem;
+  cursor: pointer;
 }
-li {
-  text-decoration: none;
-  margin-right: 30px;
+nav ul li {
+  text-transform: uppercase;
+}
+nav ul li a {
+  margin-right: 0.75rem;
+  margin-left: 0.75;
+}
+.link.active,
+.link:focus {
+  border-top: 0.1875rem solid yellow;
 }
